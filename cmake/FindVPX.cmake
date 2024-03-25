@@ -1,4 +1,4 @@
-# BY edunad / failcake https://github.com/edunad/cmake-utils
+# By edunad / failcake https://github.com/edunad/cmake-utils
 
 include(FindPackageHandleStandardArgs)
 
@@ -98,7 +98,7 @@ if(NOT VPXSDK_FOUND AND NOT TARGET VPX::VPX)
     find_package_handle_standard_args(VPX REQUIRED_VARS VPX_LIBRARY VPX_LIBRARY_INCLUDE_DIR VPX_BINARY)
 endif()
 
-# MIT License Copyright (c) 2023 FailCake
+# MIT License Copyright (c) 2024 FailCake
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the
 # "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish,
