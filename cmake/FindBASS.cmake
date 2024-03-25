@@ -1,4 +1,4 @@
-# BY edunad / failcake https://github.com/edunad/cmake-utils
+# By edunad / failcake https://github.com/edunad/cmake-utils
 
 include(FindPackageHandleStandardArgs)
 
@@ -148,7 +148,7 @@ if(NOT BASSSDK_FOUND AND NOT TARGET BASS::BASS)
     find_package_handle_standard_args(BASS REQUIRED_VARS BASS_LIBRARY BASS_LIBRARY_FX BASS_LIBRARY_INCLUDE_DIR BASS_LIBRARY_FX_INCLUDE_DIR)
 endif()
 
-# MIT License Copyright (c) 2023 FailCake
+# MIT License Copyright (c) 2024 FailCake
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the
 # "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish,
